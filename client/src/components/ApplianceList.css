@@ -1,0 +1,19 @@
+.container {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 10px;
+  text-align: center;
+}
+
+.appliances {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error {
+  font-weight: bold;
+  color: red;
+}
