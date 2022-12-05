@@ -130,6 +130,7 @@ router.post('/:id/reboot', function (req: Request, res: Response) {
     const applianceId = Number(req.params['id'])
 
     const token = req.headers['token']
+    // Use hard coded token for now
     if (!token || token !== 'vocovo') {
       res.statusCode = 401
       res.send('Access denied, token is missing/incorrect.')  
