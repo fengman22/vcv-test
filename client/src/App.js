@@ -1,11 +1,9 @@
-function ApplianceList() {
-  return null
-}
+import React from 'react';
+import ApplianceList from './components/ApplianceList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Appliances</h1>
       <ApplianceList></ApplianceList>
     </div>
   )
